@@ -35,3 +35,12 @@ http://localhost/API-RESTful/api/reviews?sort=puntuacion&order=desc
 Los filtros y el orden se pueden combinar:
 
 http://localhost/API-RESTful/api/reviews?sort=puntuacion&order=desc&puntuacion=4
+
+Este es un ejemplo de un json:
+{
+  "reviewId": 4,
+  "descripcion": "Buena atencion.",
+  "puntuacion": 8,
+  "usuario": "webadmin",
+  "seguroId": 2
+}
