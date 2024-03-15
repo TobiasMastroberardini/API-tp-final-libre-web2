@@ -1,11 +1,11 @@
 
-1. (GET) http://localhost/API/api/reviews
-2. (GET) http://localhost/API/api/reviews/:ID
-3. (GET) http://localhost/API/api/reviews/:ID/:subrecurso
-4. (POST) http://localhost/API/api/reviews
-5. (PUT) http://localhost/API/api/reviews/:ID
-6. (DELETE) http://localhost/API/api/reviews/:ID
-7. (GET) http://localhost/API/api/users/token
+1. (GET) http://localhost/TP-API/api/reviews
+2. (GET) http://localhost/TP-API/api/reviews/:ID
+3. (GET) http://localhost/TP-API/api/reviews/:ID/:subrecurso
+4. (POST) http://localhost/TP-API/api/reviews
+5. (PUT) http://localhost/TP-API/api/reviews/:ID
+6. (DELETE) http://localhost/TO-API/api/reviews/:ID
+7. (GET) http://localhost/TP-API/api/users/token
 
 sobrecuros de endpoint 3:
 1. descripcion
@@ -24,17 +24,18 @@ Luego, cuando queramos hacer un POST/PUT/DELETE debemos utilizar el siguiente he
 
 El endpoint 1 también nos permite filtrar y ordenar los resultados obtenidos. Para filtrar utilizamos endpoints como los siguientes:
 
-http://localhost/API-RESTful/api/reviews?puntuacion=4
+http://localhost/TP-API/api/reviews?puntuacion=4
 
-http://localhost/API-RESTful/api/reviews?usuario=webadmin
+http://localhost/TP-API/api/reviews?usuario=webadmin
 
 Por último, para ordenar los elementos utilizamos:
 
-http://localhost/API-RESTful/api/reviews?sort=puntuacion&order=desc
+http://localhost/TP-API/api/reviews?sort=puntuacion&order=desc
 
 Los filtros y el orden se pueden combinar:
 
-http://localhost/API-RESTful/api/reviews?sort=puntuacion&order=desc&puntuacion=4
+http://localhost/TP-API
+/api/reviews?sort=puntuacion&order=desc&puntuacion=4
 
 Este es un ejemplo de un json:
 {
